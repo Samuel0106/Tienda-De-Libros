@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Catalogo de libros</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/aja.js"></script>
+</head>
+<body>
+ <div class="container">
+ 	
+   <div class="jumbotron "> 
+      <div class="row">
+      <div class="col-lg-5"> <h1>Tienda de libros</h1></div>
+     
+
+     <div class="col-lg-7">
+      <select class="select" >
+          <option value="Fiction">Ficcion</option>
+          <option value="Fiction">Cientifico</option>
+          <option value="Fiction">Academico</option>
+          <option value="Fiction">Religioso</option>
+          <option value="Fiction">Politico</option>
+          <option value="Fiction">Historia</option>
+          <option value="Fiction">Tecnologia</option>
+      </select>
+      <input type="search" id ="search" placeholder="search book " >
+        <button type="button" class="btn btn-info s_btn">
+            <span class="glyphicon glyphicon-search  "></span> Buscar
+               </button>
+           </div>
+          </div>
+     
+     <div class="menu">
+          <ul class="nav nav-bar ">
+              <li><a href="#">Inicio</a></li>
+              <li><a href="catalog.html">Catalogo</a></li>
+              <li><a href="#">Mas vendido</a></li>
+              <li><a href="#">Trend</a></li>
+              <li><a href="#">Como trabaja</a></li>
+              <li><a href="#">Registrarse</a></li>
+              <li><a href="#">Iniciar sesion</a></li>
+              <li><a href="#" >Carro(5)</a></li>
+
+
+          </ul>
+        
+     </div>
+</div>
+
+<div class="row">
+<div class="catagory  col-lg-2" >
+	 <h4>Categorias</h4>
+	<ul class="">
+		<li><a href="">Ficcion</a></li>
+		<li><a href="">Academico</a></li>
+		<li><a href="">Cientifico</a></li>
+		<li><a href="">Religioso</a></li>
+		<li><a href="">Historia</a></li>
+		<li><a href="">Politico</a></li>
+	</ul>
+</div>
+<div class="galary col-lg-6" id="best">
+   <h4>Mas vendido </h4>
+ 
+
+	<div class="img"><a href=""><img src="images/orm.jpg" alt="book" width="200px" height="100px"></a>
+   <div class="desc">
+      <p id="pa">Mas acerca de los libros</br>
+        <a href="#">Leer mas</a></p>
+     
+     </div></div>
+	  <div class="img"><a href=""><img src="images/fkr.jpg" alt="book" width="200px" height="100px"></a>
+   <div class="desc">
+      <p id="pa">Mas acerca de los libros</br>
+         <a href="#">Leer mas</a></p>
+    
+     </div></div>
+     <div class="img"><a href=""><img src="images/sh.jpg" alt="book" width="200px" height="100px"></a>
+   <div class="desc">
+      <p id="pa">Mas acerca de los libros</br>
+         <a href="#">Leer mas</a></p>
+      
+     </div></div>
+      <div class="img"><a href=""><img src="images/ms.jpg" alt="book" width="200px" height="100px"></a>
+   <div class="desc">
+      <p id="pa">Mas acerca de los libros</br>
+         <a href="#">Leer mas</a></p>
+      
+     </div></div>
+
+     <div class="img"><a href=""><img src="images/b2.jpg" alt="book" width="200px" height="100px"></a>
+   <div class="desc">
+      <p id="pa">Mas acerca de los libros</br>
+         <a href="#">Leer mas</a></p>
+      
+     </div></div>
+      <div class="img"><a href=""><img src="images/b3.jpg" alt="book" width="200px" height="100px"></a>
+   <div class="desc">
+      <p id="pa">Mas acerca de los libros</br>
+         <a href="#">Leer mas</a></p>
+      
+     </div></div>
+
+
+ </div>
+ 
+
+ <div class="Trending col-lg-4" id="trend">
+ 	  <h4>Trending </h4>
+ 	 <div class="img_T">
+    <a href="#"><img src="images/b1.jpg" alt="book" width="200px" height="100px"></a>
+     <div class="desc"><p>Muy pronto podras ordenar</br>
+      <button type="submit" class="btn btn-sm">orden</button></p></div></div>
+ 	   <div class="img_T"><a href="#"><img src="images/b2.jpg" alt="book" width="200px" height="100px"></a>
+         <div class="desc"><p>Muy pronto podras ordenar</br>
+            <button type="submit" class="btn btn-sm">orden</button></p></div></div>
+     </div>
+
+ 
+
+</div>
+
+
+ <div class="fotter row"> 
+        <div class="f_menu col-lg-4">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="catalog.html">Categorias</a></li>
+                <li><a href="#">ordenar libro</a></li>
+                <li><a href="#">Mas vendido</a></li>
+                <li><a href="#">Trend</a></li>
+                <li><a href="#">Registrarse</a></li>
+                <li><a href="#">Iniciar sesion</a></li>
+                <li><a href="#" >Carro(5)</a></li>
+   
+
+            </ul>
+            
+        </div>
+         <div class="how_it_works col-lg-4" id="how">
+            <p><i><u>Como trabaja </u></i></br>
+               Aquí en Tienda de libros puedes buscar
+               libros más vendidos o pedir libros recién llegados
+               al crear una cuenta </p>
+         </div>  
+
+         <div class="contact_us col-lg-4" >
+              <p>
+                 <u><i>contact us</i></u><br>
+                 <form>
+                     <label><input type="email" name="" placeholder="enter your email" required=""></label></br>
+                     <label><textarea cols="30" rows="4" placeholder="write your  message" required=""></textarea></label><br>
+                     <label><input type="submit" name="" value="Send" class="btn btn-info"></label>
+                 </form>
+              </p>
+
+         </div>
+
+        </div>
+
+
+
+
+</div>
+
+
+</body>
+</html>
